@@ -8,7 +8,7 @@ from streamlit_lottie import st_lottie
 import base64
 
 st.set_page_config(layout='wide')
-with open("..\portfolio\style\main.css") as f:
+with open("../portfolio/style/main.css") as f:
         st.write(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 with open(r"..\portfolio\images\sujan.png", "rb") as img_file:
