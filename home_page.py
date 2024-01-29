@@ -182,7 +182,7 @@ if selected == 'Education':
         - English, Mathematics, Science, Social Science, and Hindi
         - CBSE: Central Board of Secondary Education             
         - Sri Chaitanya Techno School
-        - PERCENTAGE: 85%""")
+        - PERCENTAGE: 80%""")
 
     st.write("---")
 
