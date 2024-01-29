@@ -15,7 +15,7 @@ with open(r"../portfolio/images/sujan.png", "rb") as img_file:
     img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()  
 
     # PDF CV file
-with open(r"..\portfolio\assets\JUJJAVARAPU_SUJAN_CHOWDARY_20bci7294_RESUME.pdf", "rb") as pdf_file:
+with open(r"../portfolio/assets/JUJJAVARAPU_SUJAN_CHOWDARY_20bci7294_RESUME.pdf", "rb") as pdf_file:
     pdf_bytes = pdf_file.read()      
 
 
