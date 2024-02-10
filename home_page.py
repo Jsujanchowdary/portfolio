@@ -337,7 +337,8 @@ if selected == 'Achievement':
         st.write("""Certificate of Merit form SmartInternz for developed the project entitled "Hotel Management System" under the supervision of mentor and secured 30 out of 30 marks in the Grand Assessment.""")
 
     with col24:
-        st.write("research paper comimg soon")
+        CHCS 1017-1-1
+        st.image(r"../portfolio/images/CHCS 1017-1-1.png")
 
     st.write("---")
 
