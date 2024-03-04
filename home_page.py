@@ -185,16 +185,17 @@ if selected == 'Education':
     st.markdown("""<h1 class="bounce" style='text-align: center; color: white;'>EDUCATION & CERTIFICATIONS</h1>""",unsafe_allow_html=True)
     col5, col6 = st.columns(2)
     with col5:
-        st.lottie(lottie_coder3, height=600, width=600)
-    with col6:
-        st.header(" ")
+        st.image(r"../portfolio/images/vitap-logo.png")
+        st.write(" ")
         st.subheader("Education")
         st.markdown("""
         🎓 Bachelor of Technology(B.Tech)   (SEP 2020 - Present)
         - Computer Science and Engineering Specialization in Artificial Intelligence (CSE AI) 
         - Vellore Institute of Technology (VIT)
         - CGPA: 8.54/10.0""")
-        st.header(" ")
+    with col6:
+        st.image(r"../portfolio/images/sri-logo.png")
+        st.write(" ")
         st.markdown("""
         🏫 Higher secondary education or Intermediate(XII)   (Feb 2018 - Mar 2020)
         - MPC
