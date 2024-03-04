@@ -326,7 +326,7 @@ if selected == 'Projects':
 
     with col33:
         st.image(r"..\portfolio\images\project_7.jpg")
-    
+    st.write("---")
 
     col19, col20 = st.columns(2)
 
