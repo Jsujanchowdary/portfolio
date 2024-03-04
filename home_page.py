@@ -154,7 +154,7 @@ if selected == 'About':
                          - Attention to Detail 🔎
                          - Leadership 🧑🏻‍💼
                          - Communication skill 🗣''')
-        st.write("---")
+
         col34, col35 = st.columns(2)
 
         with col34:
@@ -178,7 +178,7 @@ if selected == 'About':
         with col35:
                 st.subheader(" ")
                 st.image(r"../portfolio/images/csi_logo.jpeg")
-         st.write("---")
+         
             
 if selected == 'Education':
     
