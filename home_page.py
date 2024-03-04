@@ -176,7 +176,7 @@ if selected == 'About':
                 </div>""", 
                 unsafe_allow_html=True)
         with col35:
-                st.image(r"")
+                st.image(r"../portfolio/images/csi_logo.jpg")
             
 if selected == 'Education':
     
