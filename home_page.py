@@ -83,7 +83,7 @@ if selected == 'About':
         }
         
     </style>
-    <h3 class="bounce" style='text-align: center;'>Computer Science Student, VIT AMARAVATI '24, B.Tech Student</h3>
+    <h3 class="bounce" style='text-align: center;'>Computer Science Engineering in AI, VIT AMARAVATI '24, B.Tech Student</h3>
     """, unsafe_allow_html=True)
     
     with st.container():
