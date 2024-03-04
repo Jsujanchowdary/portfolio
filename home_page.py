@@ -159,6 +159,7 @@ if selected == 'About':
 
         with col34:
                 st.subheader("Club Activities")
+                st.image(r"../portfolio/images/csi_logo.jpeg")
                 st.write("Computer Society of India - VIT 🖥️")	
                 st.write("Outreach Department Co-Lead 🤝 2020 - 2021")
                 st.write("Fostering intercollegiate connections and collaboration to expand the organization’s reach and impact.🌐")
@@ -177,7 +178,7 @@ if selected == 'About':
                 unsafe_allow_html=True)
         with col35:
                 st.subheader(" ")
-                st.image(r"../portfolio/images/csi_logo.jpeg")
+                
          
             
 if selected == 'Education':
