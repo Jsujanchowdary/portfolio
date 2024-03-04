@@ -182,7 +182,7 @@ if selected == 'About':
             
 if selected == 'Education':
     
-    st.markdown("""<h1 class="bounce" style='text-align: center; color: white;'>EDUCATION & CETIFICATION</h1>""",unsafe_allow_html=True)
+    st.markdown("""<h1 class="bounce" style='text-align: center; color: white;'>EDUCATION & CERTIFICATIONS</h1>""",unsafe_allow_html=True)
     col5, col6 = st.columns(2)
     with col5:
         st.lottie(lottie_coder3, height=600, width=600)
@@ -203,11 +203,6 @@ if selected == 'Education':
         - CGPA: 8.50/10.0""")
         st.header(" ")
         st.markdown("""
-        📚 Secondary School Certificate (SSC), Class(X)   (Jun 2017 - May 2018)
-        - English, Mathematics, Science, Social Science, and Hindi
-        - CBSE: Central Board of Secondary Education             
-        - Sri Chaitanya Techno School
-        - PERCENTAGE: 85%""")
 
     st.write("---")
 
