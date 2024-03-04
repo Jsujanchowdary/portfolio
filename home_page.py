@@ -184,7 +184,6 @@ if selected == 'Education':
     
     st.markdown("""<h1 class="bounce" style='text-align: center; color: white;'>EDUCATION & CERTIFICATIONS</h1>""",unsafe_allow_html=True)
     col5, col6 = st.columns(2)
-    st.subheader("Education")
     with col5:
         st.image(r"../portfolio/images/vitap-logo.png")
         st.write(" ")
