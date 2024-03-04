@@ -154,14 +154,14 @@ if selected == 'About':
                          - Attention to Detail 🔎
                          - Leadership 🧑🏻‍💼
                          - Communication skill 🗣''')
-
+        st.write("---")
         col34, col35 = st.columns(2)
 
         with col34:
                 st.subheader("Club Activities")
-                st.write("Computer Society of India - VIT")	
-                st.write("Outreach Department Co-Lead 2020 - 2021")
-                st.write("Fostering intercollegiate connections and collaboration to expand the organization’s reach and impact.")
+                st.write("Computer Society of India - VIT 🖥️")	
+                st.write("Outreach Department Co-Lead 🤝 2020 - 2021")
+                st.write("Fostering intercollegiate connections and collaboration to expand the organization’s reach and impact.🌐")
                 social_icons_data = {
                 # Platform: [URL, Icon]
                 "LinkedIn": ["https://www.linkedin.com/company/csivitap/", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
@@ -176,7 +176,9 @@ if selected == 'About':
                 </div>""", 
                 unsafe_allow_html=True)
         with col35:
+                st.subheader(" ")
                 st.image(r"../portfolio/images/csi_logo.jpeg")
+         st.write("---")
             
 if selected == 'Education':
     
