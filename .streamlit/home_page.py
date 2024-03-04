@@ -168,7 +168,7 @@ if selected == 'Education':
         🎓 Bachelor of Technology(B.Tech)   (SEP 2020 - Present)
         - Computer Science and Engineering Specialization in Artificial Intelligence (CSE AI) 
         - Vellore Institute of Technology (VIT)
-        - CGPA: 8.50/10.0""")
+        - CGPA: 8.54/10.0""")
         st.header(" ")
         st.markdown("""
         🏫 Higher secondary education or Intermediate(XII)   (Feb 2018 - Mar 2020)
@@ -218,6 +218,8 @@ if selected == 'Education':
         st.lottie(lottie_coder4, height=600, width=600)
 
 if selected == 'Projects':
+    
+
     st.markdown("""<h1 class="bounce" style='text-align: center; color: white;'>PROJECTS</h1>""",unsafe_allow_html=True)
     col9, col10 = st.columns(2)
 
@@ -299,6 +301,32 @@ if selected == 'Projects':
     with col18:
         st.image(r"..\portfolio\images\project_5.jpeg")
     st.write("---")
+
+    col30, col31 = st.columns(2)
+
+    with col30:
+        st.image(r"..\portfolio\images\project_6.png")
+    
+    with col31:
+        st.subheader(" ")
+        st.subheader("ANOMALY DETECTION IN TIME SERIES DATA OF NEW YORK CITY TAXI DEMAND")
+        st.write("Finding anomalies in the New York City Taxi Demand dataset is the goal of this project. The NYC Taxi and Limousine Commission is the source of the dataset, which offers a detailed account of all taxi passengers combined into 30-minute blocks. The dataset is notable for having anomalies associated with significant occasions like the NYC Marathon, Thanksgiving, Christmas, New Year's Day, and a snowfall.")
+        st.write("An essential component of data analysis is anomaly detection, which makes it possible to spot odd trends or occurrences that greatly depart from the norm. Understanding and spotting abnormalities in the context of taxi demand is crucial for maximizing resource allocation and service scheduling. In order to find anomalies in the taxi demand dataset, this project uses a machine learning technique called the Isolation Forest algorithm. The Isolation Forest works well in situations where anomalies are distinct and uncommon, and it is especially useful for finding outliers in large datasets.")
+        st.link_button("Project Source Code","https://github.com/Jsujanchowdary/ANOMALY-DETECTION-IN-TIME-SERIES-DATA-OF-NEW-YORK-CITY-TAXI-DEMAND")
+    st.write("---")
+
+    col32, col33 = st.columns(2)
+
+    with col32:
+        st.subheader(" ")
+        st.subheader("Twitter Sentiment Analysis Project")
+        st.write("Twitter Sentiment Analysis is a data analytics project aimed at analyzing a dataset of tweets to determine the sentiment expressed in each tweet — whether it is positive, negative, or neutral. The project provides insights into public opinions, trends, and sentiments shared on Twitter, utilizing data analytics techniques.")
+        st.write("Exploration of the dataset through descriptive statistics, visualization, and understanding of data types. Extensive data cleaning steps, including lowercasing, removing stop words, punctuations, URLs, and more. Tokenization, stemming, and lemmatization to prepare text data for modeling. Implementation of three models: Bernoulli Naive Bayes, Support Vector Machine (SVM), and Logistic Regression. Evaluation of each model using common metrics and visualization of ROC-AUC curves.")
+        st.link_button("Project Source Code","https://github.com/Jsujanchowdary/Twitter-Sentiment-Analysis")
+
+    with col33:
+        st.image(r"..\portfolio\images\project_7.jpg")
+    
 
     col19, col20 = st.columns(2)
 
