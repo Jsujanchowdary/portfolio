@@ -8,14 +8,14 @@ from streamlit_lottie import st_lottie
 import base64
 
 st.set_page_config(layout='wide')
-with open("../portfolio/style/main.css") as f:
+with open("..\portfolio\style\main.css") as f:
         st.write(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-with open(r"../portfolio/images/sujan.png", "rb") as img_file:
+with open(r"..\portfolio\images\sujan.png", "rb") as img_file:
     img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()  
 
     # PDF CV file
-with open(r"../portfolio/assets/JUJJAVARAPU_SUJAN_CHOWDARY_20bci7294_RESUME.pdf", "rb") as pdf_file:
+with open(r"..\portfolio\assets\JUJJAVARAPU_SUJAN_CHOWDARY_20bci7294_RESUME.pdf", "rb") as pdf_file:
     pdf_bytes = pdf_file.read()      
 
 
@@ -168,7 +168,7 @@ if selected == 'Education':
         🎓 Bachelor of Technology(B.Tech)   (SEP 2020 - Present)
         - Computer Science and Engineering Specialization in Artificial Intelligence (CSE AI) 
         - Vellore Institute of Technology (VIT)
-        - CGPA: 8.50/10.0""")
+        - CGPA: 8.54/10.0""")
         st.header(" ")
         st.markdown("""
         🏫 Higher secondary education or Intermediate(XII)   (Feb 2018 - Mar 2020)
@@ -182,7 +182,7 @@ if selected == 'Education':
         - English, Mathematics, Science, Social Science, and Hindi
         - CBSE: Central Board of Secondary Education             
         - Sri Chaitanya Techno School
-        - PERCENTAGE: 80%""")
+        - PERCENTAGE: 85%""")
 
     st.write("---")
 
@@ -218,6 +218,8 @@ if selected == 'Education':
         st.lottie(lottie_coder4, height=600, width=600)
 
 if selected == 'Projects':
+    
+
     st.markdown("""<h1 class="bounce" style='text-align: center; color: white;'>PROJECTS</h1>""",unsafe_allow_html=True)
     col9, col10 = st.columns(2)
 
@@ -229,7 +231,7 @@ if selected == 'Projects':
         st.link_button("Project Source Code","https://github.com/Jsujanchowdary/AI-Attorney-Using-LangChain")
 
     with col10:
-        st.image(r"../portfolio/images/project_image_1_ai.png",channels="RGB")
+        st.image(r"..\portfolio\images\project_image_1_ai.png",channels="RGB")
 
     st.write("---")
 
@@ -237,7 +239,7 @@ if selected == 'Projects':
 
     with col11:
         st.subheader(" ")
-        st.image(r"../portfolio/images/porject_2.jpg")
+        st.image(r"..\portfolio\images\porject_2.jpg")
     
     with col12:
         st.subheader(" ")
@@ -269,14 +271,14 @@ if selected == 'Projects':
         st.link_button("Project Source Code","https://github.com/Jsujanchowdary/classify-if-the-account-belongs-to-an-individual-user-or-a-brand-organization.") 
 
     with col14:
-        st.image(r"../portfolio/images/project_3.jpg")
+        st.image(r"..\portfolio\images\project_3.jpg")
 
     st.write("---")
 
     col15, col16 = st.columns(2)
 
     with col15:
-        st.image(r"../portfolio/images/project_4")
+        st.image(r"..\portfolio\images\project_4")
     
     with col16:
         st.subheader(" ")
@@ -297,8 +299,34 @@ if selected == 'Projects':
         st.link_button("Project Source Code","https://github.com/Jsujanchowdary/KEYWORD-EXTRATION-USING-NLTK/tree/main")
 
     with col18:
-        st.image(r"../portfolio/images/project_5.jpeg")
+        st.image(r"..\portfolio\images\project_5.jpeg")
     st.write("---")
+
+    col30, col31 = st.columns(2)
+
+    with col30:
+        st.image(r"..\portfolio\images\project_6.png")
+    
+    with col31:
+        st.subheader(" ")
+        st.subheader("ANOMALY DETECTION IN TIME SERIES DATA OF NEW YORK CITY TAXI DEMAND")
+        st.write("Finding anomalies in the New York City Taxi Demand dataset is the goal of this project. The NYC Taxi and Limousine Commission is the source of the dataset, which offers a detailed account of all taxi passengers combined into 30-minute blocks. The dataset is notable for having anomalies associated with significant occasions like the NYC Marathon, Thanksgiving, Christmas, New Year's Day, and a snowfall.")
+        st.write("An essential component of data analysis is anomaly detection, which makes it possible to spot odd trends or occurrences that greatly depart from the norm. Understanding and spotting abnormalities in the context of taxi demand is crucial for maximizing resource allocation and service scheduling. In order to find anomalies in the taxi demand dataset, this project uses a machine learning technique called the Isolation Forest algorithm. The Isolation Forest works well in situations where anomalies are distinct and uncommon, and it is especially useful for finding outliers in large datasets.")
+        st.link_button("Project Source Code","https://github.com/Jsujanchowdary/ANOMALY-DETECTION-IN-TIME-SERIES-DATA-OF-NEW-YORK-CITY-TAXI-DEMAND")
+    st.write("---")
+
+    col32, col33 = st.columns(2)
+
+    with col32:
+        st.subheader(" ")
+        st.subheader("Twitter Sentiment Analysis Project")
+        st.write("Twitter Sentiment Analysis is a data analytics project aimed at analyzing a dataset of tweets to determine the sentiment expressed in each tweet — whether it is positive, negative, or neutral. The project provides insights into public opinions, trends, and sentiments shared on Twitter, utilizing data analytics techniques.")
+        st.write("Exploration of the dataset through descriptive statistics, visualization, and understanding of data types. Extensive data cleaning steps, including lowercasing, removing stop words, punctuations, URLs, and more. Tokenization, stemming, and lemmatization to prepare text data for modeling. Implementation of three models: Bernoulli Naive Bayes, Support Vector Machine (SVM), and Logistic Regression. Evaluation of each model using common metrics and visualization of ROC-AUC curves.")
+        st.link_button("Project Source Code","https://github.com/Jsujanchowdary/Twitter-Sentiment-Analysis")
+
+    with col33:
+        st.image(r"..\portfolio\images\project_7.jpg")
+    
 
     col19, col20 = st.columns(2)
 
@@ -321,11 +349,11 @@ if selected == 'Achievement':
     col21, col22 = st.columns(2)
 
     with col21:
-        st.image(r"../portfolio/images/Engg Clinics Winter 2022-23 Merit Cert-2_page-0001.jpg")
+        st.image(r"..\portfolio\images\Engg Clinics Winter 2022-23 Merit Cert-2_page-0001.jpg")
         st.write("Certificate of Appreciation on Vellore Institute of Technology University Day")
 
     with col22:
-        st.image(r"../portfolio/images/EC Winter Sem Merit Cert-6_page-0001.jpg")
+        st.image(r"..\portfolio\images\EC Winter Sem Merit Cert-6_page-0001.jpg")
         st.write("Certificate of Merit for securing One in the Top Ten among all Engineering Clinics at Vellore Institute of Technology")
 
     st.write("---")
@@ -333,11 +361,11 @@ if selected == 'Achievement':
     col23, col24 = st.columns(2)
 
     with col23:
-        st.image(r"../portfolio/images/Certificate - SmartInternz_page-0001.jpg")
+        st.image(r"..\portfolio\images\Certificate - SmartInternz_page-0001.jpg")
         st.write("""Certificate of Merit form SmartInternz for developed the project entitled "Hotel Management System" under the supervision of mentor and secured 30 out of 30 marks in the Grand Assessment.""")
 
     with col24:
-        st.image(r"../portfolio/images/CHCS 1017-1-1.png")
+        st.write("research paper comimg soon")
 
     st.write("---")
 
@@ -346,15 +374,15 @@ if selected == 'Achievement':
     col25, col26, col27 = st.columns(3)
 
     with col25:
-        st.image(r"../portfolio/images/KKK_1351.jpg")
-        st.image(r"../portfolio/images/IMG-20230609-WA0018.jpg")
+        st.image(r"..\portfolio\images\KKK_1351.jpg")
+        st.image(r"..\portfolio\images\IMG-20230609-WA0018.jpg")
 
     with col26:
-        st.image(r"../portfolio/images/KKK_1352.jpg")
-        st.image(r"../portfolio/images/IMG20230609180701.jpg")
+        st.image(r"..\portfolio\images\KKK_1352.jpg")
+        st.image(r"..\portfolio\images\IMG20230609180701.jpg")
 
     with col27:
-        st.image(r"../portfolio/images/KKK_1380.jpg")
+        st.image(r"..\portfolio\images\KKK_1380.jpg")
 
 
 if selected == "Contact":
