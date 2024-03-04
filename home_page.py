@@ -154,6 +154,11 @@ if selected == 'About':
                          - Attention to Detail 🔎
                          - Leadership 🧑🏻‍💼
                          - Communication skill 🗣''')
+
+        st.subheader("Club Activities")
+        st.write("Computer Society of India - VIT")	
+        st.write("Outreach Department Co-Lead 2020 - 2021")
+        st.write("Fostering intercollegiate connections and collaboration to expand the organization’s reach and impact.")
             
 if selected == 'Education':
     
