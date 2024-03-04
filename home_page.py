@@ -159,6 +159,19 @@ if selected == 'About':
         st.write("Computer Society of India - VIT")	
         st.write("Outreach Department Co-Lead 2020 - 2021")
         st.write("Fostering intercollegiate connections and collaboration to expand the organization’s reach and impact.")
+        social_icons_data = {
+        # Platform: [URL, Icon]
+        "LinkedIn": ["https://www.linkedin.com/company/csivitap/", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
+        "GitHub": ["https://github.com/CSI-VIT-AP", "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg"],
+        "Instagram": ["https://www.instagram.com/p/CTppnbrBeoA/?igsh=M29lanJkNXJ2NWFp", "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"],
+        }
+
+        social_icons_html = [f"<a href='{social_icons_data[platform][0]}' target='_blank' style='margin-right: 10px;'><img class='social-icon' src='{social_icons_data[platform][1]}' alt='{platform}'></a>" for platform in social_icons_data]
+        st.write(f"""
+        <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+            {''.join(social_icons_html)}
+        </div>""", 
+        unsafe_allow_html=True)
             
 if selected == 'Education':
     
