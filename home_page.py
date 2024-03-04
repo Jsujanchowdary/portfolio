@@ -201,8 +201,6 @@ if selected == 'Education':
         - BIEAP: Andhra Pradesh Board of Intermediate Education             
         - Sri Chaitanya junior college
         - CGPA: 8.50/10.0""")
-        st.header(" ")
-        st.markdown("""
 
     st.write("---")
 
