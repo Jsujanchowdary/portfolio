@@ -231,7 +231,7 @@ if selected == 'Projects':
         st.link_button("Project Source Code","https://github.com/Jsujanchowdary/AI-Attorney-Using-LangChain")
 
     with col10:
-        st.image(r"..\portfolio\images\project_image_1_ai.png",channels="RGB")
+        st.image(r"../portfolio/images/project_image_1_ai.png",channels="RGB")
 
     st.write("---")
 
@@ -239,7 +239,7 @@ if selected == 'Projects':
 
     with col11:
         st.subheader(" ")
-        st.image(r"..\portfolio\images\porject_2.jpg")
+        st.image(r"../portfolio/images/porject_2.jpg")
     
     with col12:
         st.subheader(" ")
@@ -271,14 +271,14 @@ if selected == 'Projects':
         st.link_button("Project Source Code","https://github.com/Jsujanchowdary/classify-if-the-account-belongs-to-an-individual-user-or-a-brand-organization.") 
 
     with col14:
-        st.image(r"..\portfolio\images\project_3.jpg")
+        st.image(r"../portfolio/images/project_3.jpg")
 
     st.write("---")
 
     col15, col16 = st.columns(2)
 
     with col15:
-        st.image(r"..\portfolio\images\project_4")
+        st.image(r"../portfolio/images/project_4")
     
     with col16:
         st.subheader(" ")
@@ -299,13 +299,13 @@ if selected == 'Projects':
         st.link_button("Project Source Code","https://github.com/Jsujanchowdary/KEYWORD-EXTRATION-USING-NLTK/tree/main")
 
     with col18:
-        st.image(r"..\portfolio\images\project_5.jpeg")
+        st.image(r"../portfolio/images/project_5.jpeg")
     st.write("---")
 
     col30, col31 = st.columns(2)
 
     with col30:
-        st.image(r"..\portfolio\images\project_6.png")
+        st.image(r"../portfolio/images/project_6.png")
     
     with col31:
         st.subheader(" ")
@@ -325,7 +325,7 @@ if selected == 'Projects':
         st.link_button("Project Source Code","https://github.com/Jsujanchowdary/Twitter-Sentiment-Analysis")
 
     with col33:
-        st.image(r"..\portfolio\images\project_7.jpg")
+        st.image(r"../portfolio/images/project_7.jpg")
     st.write("---")
 
     col19, col20 = st.columns(2)
@@ -349,11 +349,11 @@ if selected == 'Achievement':
     col21, col22 = st.columns(2)
 
     with col21:
-        st.image(r"..\portfolio\images\Engg Clinics Winter 2022-23 Merit Cert-2_page-0001.jpg")
+        st.image(r"../portfolio/images/Engg Clinics Winter 2022-23 Merit Cert-2_page-0001.jpg")
         st.write("Certificate of Appreciation on Vellore Institute of Technology University Day")
 
     with col22:
-        st.image(r"..\portfolio\images\EC Winter Sem Merit Cert-6_page-0001.jpg")
+        st.image(r"../portfolio/images/EC Winter Sem Merit Cert-6_page-0001.jpg")
         st.write("Certificate of Merit for securing One in the Top Ten among all Engineering Clinics at Vellore Institute of Technology")
 
     st.write("---")
@@ -361,11 +361,11 @@ if selected == 'Achievement':
     col23, col24 = st.columns(2)
 
     with col23:
-        st.image(r"..\portfolio\images\Certificate - SmartInternz_page-0001.jpg")
+        st.image(r"../portfolio/images/Certificate - SmartInternz_page-0001.jpg")
         st.write("""Certificate of Merit form SmartInternz for developed the project entitled "Hotel Management System" under the supervision of mentor and secured 30 out of 30 marks in the Grand Assessment.""")
 
     with col24:
-        st.write("research paper comimg soon")
+        st.image(r"../portfolio/images/CHCS 1017-1-1.png")
 
     st.write("---")
 
@@ -374,15 +374,15 @@ if selected == 'Achievement':
     col25, col26, col27 = st.columns(3)
 
     with col25:
-        st.image(r"..\portfolio\images\KKK_1351.jpg")
-        st.image(r"..\portfolio\images\IMG-20230609-WA0018.jpg")
+        st.image(r"../portfolio/images/KKK_1351.jpg")
+        st.image(r"../portfolio/images/IMG-20230609-WA0018.jpg")
 
     with col26:
-        st.image(r"..\portfolio\images\KKK_1352.jpg")
-        st.image(r"..\portfolio\images\IMG20230609180701.jpg")
+        st.image(r"../portfolio/images/KKK_1352.jpg")
+        st.image(r"../portfolio/images/IMG20230609180701.jpg")
 
     with col27:
-        st.image(r"..\portfolio\images\KKK_1380.jpg")
+        st.image(r"../portfolio/images/KKK_1380.jpg")
 
 
 if selected == "Contact":
