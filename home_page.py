@@ -92,7 +92,7 @@ if selected == 'About':
 
         with col1:
             st.subheader("")
-            st.write('''Hello! I am a highly motivated fourth-year student pursuing a degree in Computer Science and Engineering with a focused specialization in Artificial Intelligence. My academic journey has equipped me with a strong foundation in computer science principles, and I have honed my skills through hands-on experience in the realms of data science and machine learning.''')
+            st.write('''Hello! I am a highly motivated Final year student pursuing a degree in Computer Science and Engineering with a focused specialization in Artificial Intelligence. My academic journey has equipped me with a strong foundation in computer science principles, and I have honed my skills through hands-on experience in the realms of data science and machine learning.''')
             st.write("Passionate about the limitless possibilities that artificial intelligence offers, I am driven by a commitment to pushing the boundaries of this transformative field. My academic pursuits have not only provided me with theoretical knowledge but have also allowed me to apply these concepts to real-world scenarios. I thrive on the challenges that AI presents and am enthusiastic about leveraging my skills to develop innovative solutions to complex problems.")
             st.download_button(
             label="📄 Download my RESUME",
